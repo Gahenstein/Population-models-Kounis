@@ -1,7 +1,7 @@
 # Population growth model with predation
 # 08/07/2024 AIMILIOS PASCHALIS KOUNIS
 ### Dependencies----
-devtools::source_url("https://raw.githubusercontent.com/Gahenstein/Models/main/Growth_Model_K.R")
+source("https://raw.githubusercontent.com/Gahenstein/Models/main/Growth_Model_K.R")
 ### Argument explanation----
 # a : vector of 6 numbers with initial cohort pop for prey
 # b : vector of 6 numbers with initial cohort pop for pred
