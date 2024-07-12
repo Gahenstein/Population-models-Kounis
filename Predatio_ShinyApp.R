@@ -1,10 +1,9 @@
 # Shiny app for predation population model
 # 09/07/2024 AIMILIOS PASCHALIS KOUNIS
-setwd("D:/R_Model_Practise/")
 ### Dependencies ----
 library(shiny)
 library(bslib)
-source("Growth_Model_K_Predation/Growth_model_Predation.R")
+source("Growth_model_Predation.R")
 ### Define UI ----
 ui <- page_fluid(
   layout_columns( col_widths = c(12, 12, 4, 4, 4, 12, 12), 
