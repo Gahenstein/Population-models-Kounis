@@ -3,7 +3,7 @@
 ### Dependencies ----
 library(shiny)
 library(bslib)
-devtools::source_url("https://raw.githubusercontent.com/Gahenstein/Models/main/Growth_model_Predation.R")
+source("https://raw.githubusercontent.com/Gahenstein/Models/main/Growth_model_Predation.R")
 ### Define UI ----
 ui <- page_fluid(
   layout_columns( col_widths = c(12, 12, 4, 4, 4, 12, 12), 
